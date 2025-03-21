@@ -1,0 +1,16 @@
+{
+  "install": {
+    "include": [
+      "^requirements\\.txt$"
+    ]
+  },
+  "restart": {
+    "include": [
+      "^main\\.py$"
+    ],
+    "exclude": [
+      "nation_data\\.json$"
+    ]
+  },
+  "throttle": 900000
+}
